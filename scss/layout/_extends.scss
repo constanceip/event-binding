@@ -1,0 +1,48 @@
+// Center text
+
+%centered {
+ text-align: center;
+}
+
+// Buttons
+%button {
+  width:20%;
+  height:40px;
+  background-color:$yellow-orange;
+  border-radius:$br;
+  color:white;
+  border:none;
+}
+
+// Top border
+
+%t-border {
+  border-top: 2px solid $color-border-light;
+}
+
+// Containers
+
+%content {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+// Clearfix
+
+%clearfix {
+  &:after {
+    content: "";
+    clear: both;
+  }
+}
+
+//Hover
+
+%hover {
+  &:hover {
+    background-color:$yellow-orange;
+  }
+}

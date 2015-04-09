@@ -1,0 +1,38 @@
+
+.buttons {
+  button {
+    @extend %button;
+    @extend %clearfix;
+  }
+  color: $color-text-light;
+  text-align: left;
+  padding: 18% 24%;
+  height:600px;
+  border-top: 10px solid $color-border-dark;
+  background: $color-sec;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px $color-shadow;
+  border-radius: $br;
+}
+
+
+.dont_hover{
+  @extend %content;
+  @extend %t-border;
+  @extend %clearfix;
+  @extend %hover;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid $color-border-light;
+  padding-left:28%;
+  transition: background-color 0.6s ease;
+}
+
+.custom {
+  @extend %content;
+  @extend %centered;
+  @extend %t-border;
+  padding-top: 40px;
+  padding-bottom: 95px;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+// color variables
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+$royal-blue      : #004080;
+$yellow-orange  : #ffa949;
+
+// Primary & Secondary colors
+
+$color-prim         : $yellow-orange;
+$color-sec          : $royal-blue;
+
+//Text colors
+$color-text-light   : $white;
+$color-text-base    : $grey;
+$color-text-dark    : $royal-blue;
+
+$color-border-light : lighten($grey, 35%);
+$color-border-dark  : $yellow-orange;
+
+$color-link-default : $yellow-orange;
+
+$color-shadow       : rgba($black,.8);
+$color-body         : $white;
+
+// Font stacks
+
+$stack-sans-serif : Helvetica, Arial, sans-serif;
+$stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
+
+// Border radius
+
+$br: 10px;
+
